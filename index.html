@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ajay Kumar's personal portfolio showcasing projects, skills, and contact information.">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <canvas id="bg-canvas"></canvas>
+
+
+    <div class="container">
+
+        <header>
+            <h1>Ajay Kumar</h1>
+
+            <nav>
+                <a href="#home" data-target="home" class="nav-link active">Home</a>
+                <a href="#projects" data-target="projects" class="nav-link">Projects</a>
+                <a href="#skills" data-target="skills" class="nav-link">Skills</a>
+                <a href="#about" data-target="about" class="nav-link">About</a>
+                <a href="#contact" data-target="contact" class="nav-link">Contact</a>
+            </nav>
+        </header>
+
+        <hr>
+
+        <section id="home" class="reveal page active">
+            <h2>Hi, I'm Ajay Kumar</h2>
+
+            <p>
+                Final-year Computer Science (AI &amp; ML) student building a strong foundation in
+                full-stack web development, with Generative AI as my next area of focus.
+                I'm currently looking for internship opportunities where I can apply what I've
+                learned and keep growing as a developer.
+            </p>
+
+            <button type="button" class="nav-link" data-target="contact">Hire Me</button>
+        </section>
+
+        <section id="about" class="reveal page">
+            <h2>About Me</h2>
+
+            <p>
+                I'm a final-year Computer Science (AI &amp; ML) student with a hands-on, build-first
+                approach to learning. Over the past few months I've focused on strengthening my
+                core web development skills, JavaScript, DOM manipulation, and now React, while
+                applying them to real projects rather than just tutorials.
+            </p>
+
+            <p>
+                My current goal is to become a well-rounded Full Stack Developer, after which
+                I plan to specialize in Generative AI, bringing together my AI/ML background with
+                practical software engineering. I'm actively looking for an internship where I can
+                contribute to real-world projects and continue learning from experienced developers.
+            </p>
+        </section>
+
+        <section id="skills" class="reveal page">
+            <h2>My Skills</h2>
+
+            <ul id="skills-list">
+                <li data-skill="HTML">HTML</li>
+                <li data-skill="CSS">CSS</li>
+                <li data-skill="JavaScript">JavaScript</li>
+                <li data-skill="Python">Python</li>
+                <li data-skill="Git & GitHub">Git & GitHub</li>
+            </ul>
+
+            <button type="button" id="add-skill-btn" class="owner-only" hidden>+ Add Skill</button>
+        </section>
+
+        <section id="projects" class="reveal page">
+            <h2>My Projects</h2>
+
+            <div class="project-links" id="projects-list">
+                <div class="project-item" data-name="Weather Pro" data-url="https://akumar962237.github.io/Weather-pro/">
+                    <a href="https://akumar962237.github.io/Weather-pro/" target="_blank" rel="noopener">Weather Pro</a>
+                </div>
+                <div class="project-item" data-name="AI Career Mentor" data-url="https://ai-career-mentor-eight.vercel.app/">
+                    <a href="https://ai-career-mentor-eight.vercel.app/" target="_blank" rel="noopener">AI Career Mentor</a>
+                </div>
+            </div>
+
+            <button type="button" id="add-project-btn" class="owner-only" hidden>+ Add Project</button>
+        </section>
+
+        <section id="contact" class="reveal page">
+            <h2>Contact Me</h2>
+
+            <div class="contact-links">
+                <a href="https://github.com/akumar962237" target="_blank" rel="noopener">GitHub</a>
+                <a href="https://www.linkedin.com/in/ajay-kumar-79689338b" target="_blank" rel="noopener">LinkedIn</a>
+                <a href="mailto:akumar962237@gmail.com">Email</a>
+            </div>
+
+        </section>
+
+        <hr>
+
+        <footer>
+            <p>&copy; 2026 Ajay Kumar. All Rights Reserved.</p>
+        </footer>
+
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
