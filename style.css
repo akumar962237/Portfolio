@@ -254,6 +254,9 @@ body.owner-mode .skill-remove {
 
 #add-skill-btn {
   margin-top: 16px;
+}
+
+body.owner-mode #add-skill-btn {
   display: block;
 }
 
@@ -313,6 +316,9 @@ body.owner-mode .project-remove {
 
 #add-project-btn {
   margin-top: 16px;
+}
+
+body.owner-mode #add-project-btn {
   display: block;
 }
 
